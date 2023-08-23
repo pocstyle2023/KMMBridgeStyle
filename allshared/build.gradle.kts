@@ -55,5 +55,5 @@ kmmbridge {
 //    use manualVersions instead of githubReleaseVersions to set version manually
 //    manualVersions()
     spm()
-    cocoapods("https://github.com/pocstyle2023/KotlinPodspecs")
+    cocoapods("git@github.com:pocstyle2023/KotlinPodspecs.git")
 }
