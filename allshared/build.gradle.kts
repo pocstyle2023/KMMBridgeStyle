@@ -56,4 +56,5 @@ kmmbridge {
 //    manualVersions()
     spm()
     cocoapods("git@github.com:pocstyle2023/KotlinPodspecs.git")
+    versionPrefix.set("0.2.0")
 }
