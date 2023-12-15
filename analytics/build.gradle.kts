@@ -30,6 +30,9 @@ kotlin {
         val iosSimulatorArm64Test by getting {
             dependsOn(iosTest)
         }
+        val androidMain by getting {
+            dependsOn(commonMain)
+        }
     }
 }
 
